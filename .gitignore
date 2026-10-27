@@ -1,0 +1,10 @@
+@"
+.env
+__pycache__/
+*.pyc
+.venv/
+data/raw/
+data/processed/
+eval/results/
+.ipynb_checkpoints/
+"@ | Set-Content .gitignore
